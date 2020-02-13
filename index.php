@@ -2,4 +2,4 @@
 
 include 'vendor/autoload.php';
 
-echo (new \Oleh\Pryvit\WordFactory())->hello() . PHP_EOL;
+echo (new \Oleh\Pryvit\WordFactory())->hello().PHP_EOL;

@@ -4,8 +4,8 @@ namespace Oleh\Pryvit;
 
 class WordFactory
 {
-   public function hello()
-   {
-       return 'Привіт!';
-   }
+    public function hello()
+    {
+        return 'Привіт!';
+    }
 }

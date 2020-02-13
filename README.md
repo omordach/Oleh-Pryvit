@@ -7,7 +7,24 @@
 composer require oleh/pryvit
 ```
 ## Operating
-...
+### Create index.php
+```
+<?php
+
+require 'vendor/autoload.php';
+
+echo (new \Oleh\Pryvit\WordFactory)->hello() . PHP_EOL;
+```
+### Run 
+```
+php index.php
+```
+
+### Result
+```
+$ php index.php
+Привіт!
+```
 
 ## Changelog
 https://github.com/omordach/Oleh-Pryvit/releases

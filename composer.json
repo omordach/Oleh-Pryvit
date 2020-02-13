@@ -15,7 +15,7 @@
  },
        "autoload-dev": {
          "psr-4": {
-           "Oleh\\Pryvit\\Tests": "tests/"
+           "Oleh\\Pryvit\\Tests\\": "tests/"
    }
  },
 

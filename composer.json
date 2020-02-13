@@ -1,0 +1,25 @@
+{
+    "name": "oleh/pryvit",
+    "description": "Simple package for testing purposes",
+    "authors": [
+        {
+            "name": "Oleh Mordach",
+            "email": "omordach@gmail.com"
+        }
+    ],
+    "require": {},
+       "autoload": {
+         "psr-4": {
+           "Oleh\\Pryvit\\": "src/"
+   }
+ },
+       "autoload-dev": {
+         "psr-4": {
+           "Oleh\\Pryvit\\Tests": "tests/"
+   }
+ },
+
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}

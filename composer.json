@@ -1,6 +1,7 @@
 {
     "name": "oleh/pryvit",
     "description": "Simple package for testing purposes",
+    "license": "MIT",
     "authors": [
         {
             "name": "Oleh Mordach",
